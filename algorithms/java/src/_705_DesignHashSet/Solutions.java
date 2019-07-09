@@ -1,6 +1,5 @@
 package _705_DesignHashSet;
 
-
 public class Solutions {
 	/*
 	using boolean array
