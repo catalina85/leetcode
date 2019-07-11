@@ -1,5 +1,6 @@
 class MyHashSet:
     """
+    Open Addressing
     using Double Hashing to implement
     index1 = (index1 + i1 * index2) % self.capacity
     """
