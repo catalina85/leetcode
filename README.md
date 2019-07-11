@@ -2,11 +2,8 @@
 # LeetCode Solutions   
 
 **Reference**
-
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
-
 - [Discuss](https://leetcode.com/discuss/)
- 
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---- |
