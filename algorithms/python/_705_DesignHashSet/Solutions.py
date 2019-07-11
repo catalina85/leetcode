@@ -7,7 +7,7 @@ class MyHashSet:
 
     def __init__(self, ):
         """
-        Initialization
+        Initialize your data structure here.
         """
         self.capacity = 1 << 3
         self.load_factor = 0.75
@@ -15,27 +15,7 @@ class MyHashSet:
         self.size = 0
         self.prime = 7
 
-    def myhash1(self, key):
-        return key % self.capacity
-
-    def myhash2(self, key):
-        return self.prime - key % self.prime
-
     def add(self, key):
-        if self.size / self.capacity >= self.load_factor:
-            self.capacity <<= 1
-            new_table = [None] * self.capacity
-            for i in range(self.capacity >> 1):
-                if self.table[i] is not None and self.table[i] != "==TOMBSTONE==":
-                    index1 = self.myhash1(self.table[i])
-                    index2 = self.myhash2(self.table[i])
-                    while new_table[index1] is not None:
-                        i1 = 1
-                        index1 = (index1 + i1 * index2) % self.capacity
-                        i1 += 1
-                    new_table[index1] = self.table[i]
-            self.table = new_table
-
         index1 = self.myhash1(key)
         index2 = self.myhash2(key)
         while self.table[index1] is not None:
@@ -48,6 +28,9 @@ class MyHashSet:
             i += 1
         self.table[index1] = key
         self.size += 1
+
+        if self.size / self.capacity >= self.load_factor:
+            self.rehash()
 
     def remove(self, key):
         index1 = self.myhash1(key)
@@ -62,6 +45,9 @@ class MyHashSet:
             i += 1
 
     def contains(self, key):
+        """
+        Returns true if this set contains the specified element
+        """
         index1 = self.myhash1(key)
         while self.table[index1] is not None:
             if self.table[index1] == key:
@@ -71,6 +57,26 @@ class MyHashSet:
             index1 = (index1 + i * index2) % self.capacity
             i += 1
         return False
+
+    def myhash1(self, key):
+        return key % self.capacity
+
+    def myhash2(self, key):
+        return self.prime - key % self.prime
+
+    def rehash(self):
+        self.capacity <<= 1
+        new_table = [None] * self.capacity
+        for i in range(self.capacity >> 1):
+            if self.table[i] is not None and self.table[i] != "==TOMBSTONE==":
+                index1 = self.myhash1(self.table[i])
+                index2 = self.myhash2(self.table[i])
+                while new_table[index1] is not None:
+                    i1 = 1
+                    index1 = (index1 + i1 * index2) % self.capacity
+                    i1 += 1
+                new_table[index1] = self.table[i]
+        self.table = new_table
 
     def displayHash(self):
         for i in range(self.capacity):
@@ -98,34 +104,34 @@ if __name__ == "__main__":
     for i in range(len(contain)):
         print(myHashSet.contains(contain[i]))
 
-    # output
-    # False     0     False
-    # False     0     False
-    # False     0     False
-    # False     0     False
-    # False     0     False
-    # False     0     False
-    # True      1     True
-    # True      1     True
-    # False     0     False
-    # False     0     False
-    # True      1     True
-    # True      1     True
-    # True      1     True
-    # False     0     False
-    # False     0     False
-    # False     0     False
-    # False     0     False
-    # False     0     False
-    # False     0     False
-    # True      1     True
-    # True      1     True
-    # False     0     False
-    # True      1     True
-    # False     0     False
-    # True      1     True
-    # False     0     False
-    # True      1     True
-    # False     0     False
-    # False     0     False
-    # False     0     False
+    # output:
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
+    # 1    True     true
+    # 1    True     true
+    # 0    False    false
+    # 0    False    false
+    # 1    True     true
+    # 1    True     true
+    # 1    True     true
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
+    # 1    True     true
+    # 1    True     true
+    # 0    False    false
+    # 1    True     true
+    # 0    False    false
+    # 1    True     true
+    # 0    False    false
+    # 1    True     true
+    # 0    False    false
+    # 0    False    false
+    # 0    False    false
