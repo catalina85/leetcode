@@ -1,8 +1,8 @@
 class MyHashSet:
     """
-    Open Addressing
+    Open Addressing for handling Collisions
     using Double Hashing to implement
-    index1 = (index1 + i1 * index2) % self.capacity
+    newIndex = (index1 + i1 * index2) % self.capacity
     """
 
     def __init__(self, ):
@@ -17,16 +17,22 @@ class MyHashSet:
 
     def add(self, key):
         index1 = self.myhash1(key)
-        index2 = self.myhash2(key)
-        while self.table[index1] is not None:
-            if self.table[index1] == key:
-                return
-            if self.table[index1] == "==TOMBSTONE==":
-                break
+        if self.table[index1] == key:
+            return
+
+        if self.table[index1] is not None and self.table[index1] != "==TOMBSTONE==":
+            index2 = self.myhash2(key)
             i = 1
-            index1 = (index1 + i * index2) % self.capacity
-            i += 1
-        self.table[index1] = key
+            while True:
+                new_index = (index1 + i * index2) % self.capacity
+                if self.table[new_index] == key:
+                    return
+                if self.table[new_index] is None or self.table[new_index] == "==TOMBSTONE==":
+                    self.table[new_index] = key
+                    break
+                i += 1
+        else:
+            self.table[index1] = key
         self.size += 1
 
         if self.size / self.capacity >= self.load_factor:
@@ -34,28 +40,43 @@ class MyHashSet:
 
     def remove(self, key):
         index1 = self.myhash1(key)
-        while self.table[index1] is not None:
+        if self.table[index1] is not None:
             if self.table[index1] == key:
                 self.table[index1] = "==TOMBSTONE=="
                 self.size -= 1
                 return
             index2 = self.myhash2(key)
             i = 1
-            index1 = (index1 + i * index2) % self.capacity
-            i += 1
+            while True:
+                new_index = (index1 + i * index2) % self.capacity
+                if self.table[new_index] is not None:
+                    if self.table[new_index] == key:
+                        self.table[new_index] = "==TOMBSTONE=="
+                        self.size -= 1
+                        return
+                    i += 1
+                else:
+                    return
 
     def contains(self, key):
         """
         Returns true if this set contains the specified element
         """
         index1 = self.myhash1(key)
-        while self.table[index1] is not None:
-            if self.table[index1] == key:
-                return True
+        if self.table[index1] == key:
+            return True
+
+        if self.table[index1] is not None and self.table[index1] != "==TOMBSTONE==":
             index2 = self.myhash2(key)
             i = 1
-            index1 = (index1 + i * index2) % self.capacity
-            i += 1
+            while True:
+                new_index = (index1 + i * index2) % self.capacity
+                if self.table[new_index] is not None:
+                    if self.table[new_index] == key:
+                        return True
+                    i += 1
+                else:
+                    return False
         return False
 
     def myhash1(self, key):
@@ -70,12 +91,18 @@ class MyHashSet:
         for i in range(self.capacity >> 1):
             if self.table[i] is not None and self.table[i] != "==TOMBSTONE==":
                 index1 = self.myhash1(self.table[i])
-                index2 = self.myhash2(self.table[i])
-                while new_table[index1] is not None:
+                if new_table[index1] is not None:
+                    index2 = self.myhash2(self.table[i])
                     i1 = 1
-                    index1 = (index1 + i1 * index2) % self.capacity
-                    i1 += 1
-                new_table[index1] = self.table[i]
+                    while True:
+                        new_index = (index1 + i1 * index2) % self.capacity
+                        if new_table[new_index] is None:
+                            new_table[new_index] = self.table[i]
+                            break
+                        i1 += 1
+                else:
+                    new_table[index1] = self.table[i]
+
         self.table = new_table
 
     def displayHash(self):
@@ -103,6 +130,8 @@ if __name__ == "__main__":
 
     for i in range(len(contain)):
         print(myHashSet.contains(contain[i]))
+
+    print("size: " + str(myHashSet.size))
 
     # output:
     # 0    False    false
@@ -135,3 +164,4 @@ if __name__ == "__main__":
     # 0    False    false
     # 0    False    false
     # 0    False    false
+    # size: 30
