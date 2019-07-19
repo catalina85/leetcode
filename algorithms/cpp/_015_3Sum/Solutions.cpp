@@ -41,7 +41,7 @@ int main() {
     auto *so = new Solution();
     vector<vector<int>> res = so->threeSum(nums);
     for (vector<int> &vect:res) {
-        for (int x:vect)
+        for (int &x:vect)
             cout << x << " ";
         cout << endl;
     }

@@ -17,3 +17,4 @@
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst)|[C++](./algorithms/cpp/_653_TwoSumIV_InputIsA_BST/Solutions.cpp)|Easy|
 |1099|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k)  (*)|[C++](./algorithms/cpp/_1099_TwoSumLessThanK/Solutions.cpp)|Easy|
 |015|[3Sum](https://leetcode.com/problems/3sum)|[C++](./algorithms/cpp/_015_3Sum/Solutions.cpp)|Medium|
+|016|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|[C++](./algorithms/cpp/_016_3SumClosest/Solutions.cpp)|Medium|
