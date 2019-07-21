@@ -19,3 +19,4 @@
 |015|[3Sum](https://leetcode.com/problems/3sum)|[C++](./algorithms/cpp/_015_3Sum/Solutions.cpp)|Medium|
 |016|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|[C++](./algorithms/cpp/_016_3SumClosest/Solutions.cpp)|Medium|
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)  (*)|[C++](./algorithms/cpp/_259_3SumSmaller/Solutions.cpp)|Medium|
+|018|[4Sum](https://leetcode.com/problems/4sum)|[C++](./algorithms/cpp/_018_4Sum/Solutions.cpp)|Medium|
