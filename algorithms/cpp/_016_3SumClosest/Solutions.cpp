@@ -38,5 +38,6 @@ int main() {
     auto *so = new Solution();
 
     cout << so->threeSumClosest(nums, target) << endl;
+    delete so;
     return 0;
 }

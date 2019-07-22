@@ -39,4 +39,5 @@ int main() {
 
     cout << so->find(4) << endl;
     cout << so->find(7) << endl;
+    delete so;
 }

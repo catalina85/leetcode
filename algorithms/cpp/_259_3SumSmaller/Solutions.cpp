@@ -30,5 +30,6 @@ int main() {
     int target = 2;
     auto *so = new Solution();
     cout << so->threeSumSmaller(nums, target) << endl;
+    delete so;
     return 0;
 }

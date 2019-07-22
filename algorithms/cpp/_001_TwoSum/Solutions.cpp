@@ -25,7 +25,8 @@ int main() {
     auto *so = new Solution();
     vector<int> res = so->twoSum(nums, target);
 
-    for (int x : res)
+    for (int &x : res)
         cout << x << " ";
+    delete so;
     return 0;
 }

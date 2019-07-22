@@ -62,5 +62,8 @@ int main() {
     so->printList(l1);
     so->printList(l2);
     so->printList(res);
+    delete l1;
+    delete l2;
+    delete so;
     return 0;
 }

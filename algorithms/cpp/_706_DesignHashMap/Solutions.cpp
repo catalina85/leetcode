@@ -134,13 +134,14 @@ int main() {
     for (int i = 0; i < sizeof(key) / sizeof(key[0]); i++)
         obj->put(key[i], value[i]);
 
-    for (int r: remove)
+    for (int &r: remove)
         obj->remove(r);
 
-    for (int g: get)
+    for (int &g: get)
         cout << obj->get(g) << endl;
 
     cout << "size: " << obj->size << endl;
+    delete obj;
     return 0;
 /*
 output:

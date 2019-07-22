@@ -78,16 +78,16 @@ int main() {
 // 2   4  7
 //
 // Target = 9
-
-    auto *so = new Solution();
-    auto *root = new TreeNode(5);
-    so->insert(root, 3);
-    so->insert(root, 6);
-    so->insert(root, 2);
-    so->insert(root, 4);
-    so->insert(root, 7);
+    Solution so;
+    TreeNode *root = new TreeNode(5);
+    so.insert(root, 3);
+    so.insert(root, 6);
+    so.insert(root, 2);
+    so.insert(root, 4);
+    so.insert(root, 7);
 
     int target = 9;
-    bool res = so->findTarget(root, 9);
+    bool res = so.findTarget(root, 9);
     cout << res << endl;
+    delete root;
 }

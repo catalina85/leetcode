@@ -32,6 +32,7 @@ int main() {
     auto *so = new Solution();
     int res = so->fourSumCount(A, B, C, D);
     cout << res << endl;
+    delete so;
 
     return 0;
 }

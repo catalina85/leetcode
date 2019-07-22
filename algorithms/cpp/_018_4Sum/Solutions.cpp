@@ -47,5 +47,6 @@ int main() {
             cout << x << " ";
         cout << endl;
     }
+    delete so;
     return 0;
 }

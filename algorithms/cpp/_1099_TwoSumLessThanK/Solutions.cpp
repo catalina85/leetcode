@@ -38,5 +38,6 @@ int main() {
     auto *so = new Solution();
     int res = so->twoSumLessThanK(vect, k);
     cout << res << endl;
+    delete so;
     return 0;
 }

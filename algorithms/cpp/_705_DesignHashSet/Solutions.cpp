@@ -102,16 +102,17 @@ int main() {
     int contain[] = {87, 71, 85, 60, 72, 78, 1, 29, 83, 95, 57, 70, 70, 71, 43, 76, 47, 75, 77, 93, 79, 42, 16, 71, 48,
                      3, 61, 71, 76, 49};
 
-    for (int a: add)
+    for (int &a: add)
         obj->add(a);
 
-    for (int r: rv)
+    for (int &r: rv)
         obj->remove(r);
 
-    for (int c: contain)
+    for (int &c: contain)
         cout << obj->contains(c) << endl;
 
     cout << "size: " << obj->size << endl;
+    delete obj;
     return 0;
 //    output:
 //    0    False    false
