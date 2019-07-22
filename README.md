@@ -23,4 +23,4 @@
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii)|[C++](./algorithms/cpp/_454_4SumII/Solutions.cpp)|Medium|
 |002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[C++](./algorithms/cpp/_002_AddTwoNumbers/Solutions.cpp)|Medium|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)|[C++](./algorithms/cpp/_445_AddTwoNumbersII/Solutions.cpp)|Medium|
-
+|003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Python](./algorithms/python/_003_LongestSubstringWithoutRepeatingCharacters/Solutions.py), [Java](./algorithms/java/src/_003_LongestSubstringWithoutRepeatingCharacters/Solutions.java)|Medium|
