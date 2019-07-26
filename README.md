@@ -24,3 +24,4 @@
 |002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[C++](./algorithms/cpp/_002_AddTwoNumbers/Solutions.cpp)|Medium|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)|[C++](./algorithms/cpp/_445_AddTwoNumbersII/Solutions.cpp)|Medium|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Python](./algorithms/python/_003_LongestSubstringWithoutRepeatingCharacters/Solutions.py), [Java](./algorithms/java/src/_003_LongestSubstringWithoutRepeatingCharacters/Solutions.java)|Medium|
+|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)  (*)|[C++](./algorithms/cpp/_340_LongestSubstringWithAtMostKDistinctCharacters/Solutions.cpp)|Hard|
