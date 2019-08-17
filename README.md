@@ -27,3 +27,4 @@
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)  (*)|[C++](./algorithms/cpp/_340_LongestSubstringWithAtMostKDistinctCharacters/Solutions.cpp)|Hard|
 |004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[C++](./algorithms/cpp/_004_MedianOfTwoSortedArrays/Solutions.cpp)|Hard|
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[C++](./algorithms/cpp/_005_LongestPalindromicSubstring/Solutions.cpp), [Java](./algorithms/java/src/_005_LongestPalindromicSubstring/Solutions.java)|Medium|
+|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)|[C++](./algorithms/cpp/_516_LongestPalindromicSubsequence/Solutions.cpp), [Python](./algorithms/python/_516_LongestPalindromicSubsequence/Solutions.py)|Medium|
