@@ -28,4 +28,4 @@
 |004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[C++](./algorithms/cpp/_004_MedianOfTwoSortedArrays/Solutions.cpp)|Hard|
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[C++](./algorithms/cpp/_005_LongestPalindromicSubstring/Solutions.cpp), [Java](./algorithms/java/src/_005_LongestPalindromicSubstring/Solutions.java)|Medium|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)|[C++](./algorithms/cpp/_516_LongestPalindromicSubsequence/Solutions.cpp), [Python](./algorithms/python/_516_LongestPalindromicSubsequence/Solutions.py)|Medium|
-|007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[C++](./algorithms/cpp/_007_ReverseInteger/Solutions.cpp), [Java](./algorithms/java/src/_007_ReverseInteger/Solutions.java)|Easy|
+|007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[C++](./algorithms/cpp/_007_ReverseInteger/Solutions.cpp)|Easy|
