@@ -31,3 +31,4 @@
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[C++](./algorithms/cpp/_007_ReverseInteger/Solutions.cpp)|Easy|
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[C++](./algorithms/cpp/_008_StringtoInteger_atoi/Solutions.cpp)|Medium|
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits)|[C++](./algorithms/cpp/_190_ReverseBits/Solutions.cpp)|Easy|
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)|[C++](./algorithms/cpp/_191_Numberof_1_Bits/Solutions.cpp)|Easy|

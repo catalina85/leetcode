@@ -4,10 +4,11 @@ using namespace std;
 
 class Solution {
 public:
-    uint32_t reverseBits(uint32_t n) {
-        uint32_t res = 0;
+    int hammingWeight(uint32_t n) {
+        int res = 0;
         for (int i = 0; i < 32; i++) {
-            res = (res << 1) + (n >> i & 1);
+            if ((n >> i & 1) == 1)
+                res++;
         }
         return res;
     }
@@ -16,7 +17,7 @@ public:
 int main() {
     auto *so = new Solution();
     uint32_t n = 43261596;
-    uint32_t res = so->reverseBits(n);
+    uint32_t res = so->hammingWeight(n);
     cout << res << endl;
     delete so;
     return 0;
