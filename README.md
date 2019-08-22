@@ -37,3 +37,4 @@
 |013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[C++](./algorithms/cpp/_013_RomantoInteger/Solutions.cpp)|Easy|
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[C++](./algorithms/cpp/_014_LongestCommonPrefix/Solutions.cpp)|Easy|
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[C++](./algorithms/cpp/_017_LetterCombinationsOfAPhoneNumber/Solutions.cpp)|Medium|
+|022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[C++](./algorithms/cpp/_022_GenerateParentheses/Solutions.cpp)|Medium|
