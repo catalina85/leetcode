@@ -35,3 +35,4 @@
 |011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[C++](./algorithms/cpp/_011_ContainerWithMostWater/Solutions.cpp)|Medium|
 |042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./algorithms/cpp/_042_TrappingRainWater/Solutions.cpp)|Hard|
 |013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[C++](./algorithms/cpp/_013_RomantoInteger/Solutions.cpp)|Easy|
+|014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[C++](./algorithms/cpp/_014_LongestCommonPrefix/Solutions.cpp)|Easy|
