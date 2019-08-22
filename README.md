@@ -34,3 +34,4 @@
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)|[C++](./algorithms/cpp/_191_Numberof_1_Bits/Solutions.cpp)|Easy|
 |011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[C++](./algorithms/cpp/_011_ContainerWithMostWater/Solutions.cpp)|Medium|
 |042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./algorithms/cpp/_042_TrappingRainWater/Solutions.cpp)|Hard|
+|013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[C++](./algorithms/cpp/_013_RomantoInteger/Solutions.cpp)|Easy|
