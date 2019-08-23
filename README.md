@@ -38,3 +38,12 @@
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[C++](./algorithms/cpp/_014_LongestCommonPrefix/Solutions.cpp)|Easy|
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[C++](./algorithms/cpp/_017_LetterCombinationsOfAPhoneNumber/Solutions.cpp)|Medium|
 |022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[C++](./algorithms/cpp/_022_GenerateParentheses/Solutions.cpp)|Medium|
+|078|[Subsets](https://leetcode.com/problems/subsets)|[C++](./algorithms/cpp/_078_Subsets/Solutions.cpp)|Medium|
+|090|[Subsets II](https://leetcode.com/problems/subsets-ii)|[C++](./algorithms/cpp/_090_Subsets_II/Solutions.cpp)|Medium|
+|046|[Permutations](https://leetcode.com/problems/permutations)|[C++](./algorithms/cpp/_046_Permutations/Solutions.cpp)|Medium|
+|047|[Permutations II](https://leetcode.com/problems/permutations-ii)|[C++](./algorithms/cpp/_047_Permutations_II/Solutions.cpp)|Medium|
+|039|[Combination Sum](https://leetcode.com/problems/combination-sum)|[C++](./algorithms/cpp/_039_CombinationSum/Solutions.cpp)|Medium|
+|040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[C++](./algorithms/cpp/_040_CombinationSumII/Solutions.cpp)|Medium|
+|077|[Combinations](https://leetcode.com/problems/combinations)|[C++](./algorithms/cpp/_077_Combinations/Solutions.cpp)|Medium|
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii)|[C++](./algorithms/cpp/_216_CombinationSumIII/Solutions.cpp)|Medium|
+|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)|[C++](./algorithms/cpp/_377_CombinationSumIV/Solutions.cpp)|Medium|
