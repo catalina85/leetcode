@@ -59,4 +59,7 @@
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./algorithms/cpp/_026_RemoveDuplicatesFromSortedArray/Solutions.cpp)|Easy|
 |027|[Remove Element](https://leetcode.com/problems/remove-element)|[C++](./algorithms/cpp/_027_RemoveElement/Solutions.cpp)|Easy|
 |080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|[C++](./algorithms/cpp/_080_RemoveDuplicatesfromSortedArrayII/Solutions.cpp)|Medium|
-|028|[Implement strStr()](https://leetcode.com/problems/implement-strstr)|[C++](./algorithms/cpp/_028_ImplementstrStr/Solutions.cpp), [Java](./algorithms/java/src/_028_ImplementstrStr/Solutions.java)|Easy|
+|028|[Implement strStr()](https://leetcode.com/problems/implement-strstr)|[C++](./algorithms/cpp/_028_ImplementstrStr/Solutions.cpp)|Easy|
+|029|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers)|[C++](./algorithms/cpp/_029_DivideTwoIntegers/Solutions.cpp)|Medium|
+|050|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[C++](./algorithms/cpp/_050_Pow_x_n/Solutions.cpp)|Medium|
+|069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[C++](./algorithms/cpp/_069_Sqrt_x/Solutions.cpp)|Easy|
