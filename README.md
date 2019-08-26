@@ -52,4 +52,7 @@
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[C++](./algorithms/cpp/_234_PalindromeLinkedList/Solutions.cpp)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[C++](./algorithms/cpp/_206_ReverseLinkedList/Solutions.cpp), [Java](./algorithms/java/src/_206_ReverseLinkedList/Solutions.java)|Easy|
 |092|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)|[C++](./algorithms/cpp/_092_ReverseLinkedListII/Solutions.cpp)|Medium|
-|020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[C++](./algorithms/cpp/_020_ValidParentheses/Solutions.cpp), [Java](./algorithms/java/src/_020_ValidParentheses/Solutions.java)|Easy|
+|020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[C++](./algorithms/cpp/_020_ValidParentheses/Solutions.cpp)|Easy|
+|088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|[C++](./algorithms/cpp/_088_MergeSortedArray/Solutions.cpp)|Easy|
+|021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[C++](./algorithms/cpp/_021_MergeTwoSortedLists/Solutions.cpp), [Java](./algorithms/java/src/_021_MergeTwoSortedLists/Solutions.java)|Easy|
+|023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[C++](./algorithms/cpp/_023_MergekSortedLists/Solutions.cpp)|Hard|
