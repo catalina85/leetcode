@@ -57,5 +57,6 @@
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[C++](./algorithms/cpp/_021_MergeTwoSortedLists/Solutions.cpp)|Easy|
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[C++](./algorithms/cpp/_023_MergekSortedLists/Solutions.cpp)|Hard|
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./algorithms/cpp/_026_RemoveDuplicatesFromSortedArray/Solutions.cpp)|Easy|
-|027|[Remove Element](https://leetcode.com/problems/remove-element)|[C++](./algorithms/cpp/_027_RemoveElement/Solutions.cpp), [Java](./algorithms/java/src/_027_RemoveElement/Solutions.java)|Easy|
+|027|[Remove Element](https://leetcode.com/problems/remove-element)|[C++](./algorithms/cpp/_027_RemoveElement/Solutions.cpp)|Easy|
 |080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|[C++](./algorithms/cpp/_080_RemoveDuplicatesfromSortedArrayII/Solutions.cpp)|Medium|
+|028|[Implement strStr()](https://leetcode.com/problems/implement-strstr)|[C++](./algorithms/cpp/_028_ImplementstrStr/Solutions.cpp), [Java](./algorithms/java/src/_028_ImplementstrStr/Solutions.java)|Easy|
