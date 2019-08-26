@@ -47,8 +47,3 @@
 |077|[Combinations](https://leetcode.com/problems/combinations)|[C++](./algorithms/cpp/_077_Combinations/Solutions.cpp)|Medium|
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii)|[C++](./algorithms/cpp/_216_CombinationSumIII/Solutions.cpp)|Medium|
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)|[C++](./algorithms/cpp/_377_CombinationSumIV/Solutions.cpp)|Medium|
-|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning)|[C++](./algorithms/cpp/_131_PalindromePartitioning/Solutions.cpp)|Medium|
-|019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[C++](./algorithms/cpp/_019_RemoveNthNodeFromEndOfList/Solutions.cpp)|Medium|
-|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[C++](./algorithms/cpp/_234_PalindromeLinkedList/Solutions.cpp)|Easy|
-|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[C++](./algorithms/cpp/_206_ReverseLinkedList/Solutions.cpp), [Java](./algorithms/java/src/_206_ReverseLinkedList/Solutions.java)|Easy|
-|092|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)|[C++](./algorithms/cpp/_092_ReverseLinkedListII/Solutions.cpp)|Medium|
