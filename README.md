@@ -54,5 +54,8 @@
 |092|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)|[C++](./algorithms/cpp/_092_ReverseLinkedListII/Solutions.cpp)|Medium|
 |020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[C++](./algorithms/cpp/_020_ValidParentheses/Solutions.cpp)|Easy|
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|[C++](./algorithms/cpp/_088_MergeSortedArray/Solutions.cpp)|Easy|
-|021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[C++](./algorithms/cpp/_021_MergeTwoSortedLists/Solutions.cpp), [Java](./algorithms/java/src/_021_MergeTwoSortedLists/Solutions.java)|Easy|
+|021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[C++](./algorithms/cpp/_021_MergeTwoSortedLists/Solutions.cpp)|Easy|
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[C++](./algorithms/cpp/_023_MergekSortedLists/Solutions.cpp)|Hard|
+|026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./algorithms/cpp/_026_RemoveDuplicatesFromSortedArray/Solutions.cpp)|Easy|
+|027|[Remove Element](https://leetcode.com/problems/remove-element)|[C++](./algorithms/cpp/_027_RemoveElement/Solutions.cpp), [Java](./algorithms/java/src/_027_RemoveElement/Solutions.java)|Easy|
+|080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|[C++](./algorithms/cpp/_080_RemoveDuplicatesfromSortedArrayII/Solutions.cpp)|Medium|
