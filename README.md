@@ -63,3 +63,4 @@
 |029|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers)|[C++](./algorithms/cpp/_029_DivideTwoIntegers/Solutions.cpp)|Medium|
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[C++](./algorithms/cpp/_050_Pow_x_n/Solutions.cpp)|Medium|
 |069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[C++](./algorithms/cpp/_069_Sqrt_x/Solutions.cpp)|Easy|
+|053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[C++](./algorithms/cpp/_053_MaximumSubarray/Solutions.cpp), [Python](./algorithms/python/_053_MaximumSubarray/Solutions.py)|Easy|
