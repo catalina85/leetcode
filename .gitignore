@@ -1,2 +1,4 @@
 .DS_Store
 .idea/
+add_ignore.py
+solution_check.py

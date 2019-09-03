@@ -67,3 +67,9 @@
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[C++](./algorithms/cpp/_094_BinaryTreeInorderTraversal/Solutions.cpp), [Python](./algorithms/python/_094_BinaryTreeInorderTraversal/Solutions.py)|Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|[C++](./algorithms/cpp/_144_BinaryTreePreorderTraversal/Solutions.cpp), [Python](./algorithms/python/_144_BinaryTreePreorderTraversal/Solutions.py)|Medium|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[C++](./algorithms/cpp/_145_BinaryTreePostorderTraversal/Solutions.cpp), [Python](./algorithms/python/_145_BinaryTreePostorderTraversal/Solutions.py)|Hard|
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[C++](./algorithms/cpp/_102_BinaryTreeLevelOrderTraversal/Solutions.cpp)|Medium|
+|107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|[C++](./algorithms/cpp/_107_BinaryTreeLevelOrderTraversalII/Solutions.cpp)|Easy|
+|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[C++](./algorithms/cpp/_103_BinaryTreeZigzagLevelOrderTraversal/Solutions.cpp)|Medium|
+|314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal)  (*)|[C++](./algorithms/cpp/_314_BinaryTreeVerticalOrderTraversal/Solutions.cpp)|Medium|
+|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)|[C++](./algorithms/cpp/_111_MinimumDepthofBinaryTree/Solutions.cpp)|Easy|
+|993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree)|[C++](./algorithms/cpp/_993_CousinsinBinaryTree/Solutions.cpp)|Easy|
