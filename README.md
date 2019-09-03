@@ -64,3 +64,6 @@
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[C++](./algorithms/cpp/_050_Pow_x_n/Solutions.cpp)|Medium|
 |069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[C++](./algorithms/cpp/_069_Sqrt_x/Solutions.cpp)|Easy|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[C++](./algorithms/cpp/_053_MaximumSubarray/Solutions.cpp), [Python](./algorithms/python/_053_MaximumSubarray/Solutions.py)|Easy|
+|094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[C++](./algorithms/cpp/_094_BinaryTreeInorderTraversal/Solutions.cpp), [Python](./algorithms/python/_094_BinaryTreeInorderTraversal/Solutions.py)|Medium|
+|144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|[C++](./algorithms/cpp/_144_BinaryTreePreorderTraversal/Solutions.cpp), [Python](./algorithms/python/_144_BinaryTreePreorderTraversal/Solutions.py)|Medium|
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[C++](./algorithms/cpp/_145_BinaryTreePostorderTraversal/Solutions.cpp), [Python](./algorithms/python/_145_BinaryTreePostorderTraversal/Solutions.py)|Hard|
