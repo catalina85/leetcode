@@ -22,10 +22,6 @@ private:
         else
             return helper(m, A, V, len - 1);
     }
-
-    int max(int a, int b) {
-        return a > b ? a : b;
-    }
 };
 
 int main() {

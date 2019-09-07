@@ -21,10 +21,6 @@ private:
         else
             return max(V[len - 1] + helper(m - A[len - 1], A, V, len - 1), helper(m, A, V, len - 1));
     }
-
-    int max(int a, int b) {
-        return a > b ? a : b;
-    }
 };
 
 int main() {

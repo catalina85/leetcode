@@ -11,10 +11,6 @@ public:
     }
 
 private:
-    int max(int a, int b) {
-        return a > b ? a : b;
-    }
-
     int helper(int m, vector<int> &A, int n) {
         if (m <= 0 || n == 0)
             return 0;

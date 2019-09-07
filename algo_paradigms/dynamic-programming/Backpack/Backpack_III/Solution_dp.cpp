@@ -21,11 +21,6 @@ public:
         }
         return dp[len][m];
     }
-
-private:
-    int max(int a, int b) {
-        return a > b ? a : b;
-    }
 };
 
 int main() {
