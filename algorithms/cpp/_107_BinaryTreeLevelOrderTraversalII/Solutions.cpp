@@ -1,18 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-
+#include <myVector.h>
+#include <myTreeNode.h>
+#include <myutils.h>
 
 using namespace std;
-
-//Definition for a binary tree node.
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-
-    explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-};
 
 class Solution {
 public:
@@ -54,11 +47,7 @@ int main() {
     root->left->left = new TreeNode(4);
     root->left->right = new TreeNode(5);
     vector<vector<int>> res = so->levelOrderBottom(root);
-    for (auto &level:res) {
-        for (int &ele:level)
-            cout << ele << " ";
-        cout << endl;
-    }
+    print_2d_vector(res);
     delete so;
     return 0;
 }

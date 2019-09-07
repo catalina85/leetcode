@@ -1,23 +1,9 @@
 #include <iostream>
 #include <vector>
+#include <myTreeNode.h>
+#include <myutils.h>
 
 using namespace std;
-
-/**
- * Definition for a binary tree node.
- */
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-
-    explicit TreeNode(int val) {
-        this->val = val;
-        this->left = NULL;
-        this->right = NULL;
-    }
-};
 
 class Solution {
     vector<int> vect;
@@ -87,7 +73,7 @@ int main() {
     so.insert(root, 7);
 
     int target = 9;
-    bool res = so.findTarget(root, 9);
-    cout << res << endl;
+    bool res = so.findTarget(root, target);
+    print(res);
     delete root;
 }

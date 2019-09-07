@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -31,8 +32,6 @@ int main() {
     auto *so = new Solution();
     vector<int> nums{0, 0, 1, 1, 1, 2, 2, 3, 3, 4, 5};
     int len = so->removeDuplicates(nums);
-    for (int i = 0; i < len; i++) {
-        cout << nums[i];
-    }
+    print_1d_vector(nums);
     return 0;
 }

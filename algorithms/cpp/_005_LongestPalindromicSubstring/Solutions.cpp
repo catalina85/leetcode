@@ -1,4 +1,5 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
@@ -45,6 +46,6 @@ int main() {
     string s = "bbbb";
     auto so = new Solution();
     string res = so->longestPalindrome(s);
-    cout << res << endl;
+    print(res);
     delete so;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -27,8 +28,7 @@ int main() {
     auto *so = new Solution();
     int n = 3;
     vector<string> res = so->generateParenthesis(n);
-    for (string &str :res)
-        cout << str << endl;
+    print_1d_vector(res);
     delete so;
     return 0;
 }

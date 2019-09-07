@@ -1,4 +1,5 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
@@ -111,7 +112,9 @@ int main() {
     for (int &c: contain)
         cout << obj->contains(c) << endl;
 
-    cout << "size: " << obj->size << endl;
+    string str = "size: ";
+    print(str);
+    print(obj->size);
     delete obj;
     return 0;
 //    output:

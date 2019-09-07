@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -31,12 +32,7 @@ private:
 int main() {
     auto *so = new Solution();
     vector<vector<int>> res = so->combinationSum3(3, 9);
-    for (auto &list: res) {
-        for (auto ele: list) {
-            cout << ele;
-        }
-        cout << endl;
-    }
+    print_2d_vector(res);
     delete so;
     return 0;
 }

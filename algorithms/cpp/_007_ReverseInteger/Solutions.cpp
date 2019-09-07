@@ -1,10 +1,11 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
 class Solution {
     /*
-     * -24 / 10 = -4
+     * -24 / 10 = -2
      */
 public:
     int reverse(int x) {
@@ -24,6 +25,6 @@ int main() {
     auto *so = new Solution();
     int num = -8765;
     int res = so->reverse(num);
-    cout << res << endl;
+    print(res);
     return 0;
 }

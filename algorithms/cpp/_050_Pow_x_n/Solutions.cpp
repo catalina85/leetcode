@@ -1,4 +1,5 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
@@ -30,7 +31,7 @@ int main() {
     double x = 2.0;
     int n = -2;
     double res = so->myPow(x, n);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

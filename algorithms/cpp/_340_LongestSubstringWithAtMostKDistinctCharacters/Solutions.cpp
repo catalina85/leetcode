@@ -1,4 +1,5 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
@@ -27,6 +28,6 @@ int main() {
 
     auto *so = new Solution();
     int res = so->lengthOfLongestSubstringKDistinct(s, k);
-    cout << res << endl;
+    print(res);
     return 0;
 }

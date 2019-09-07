@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -36,8 +37,8 @@ int main() {
     vector<int> nums{0, 1, 2};
     int target = 1;
     auto *so = new Solution();
-
-    cout << so->threeSumClosest(nums, target) << endl;
+    int res = so->threeSumClosest(nums, target);
+    print(res);
     delete so;
     return 0;
 }

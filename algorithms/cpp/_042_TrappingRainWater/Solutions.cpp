@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -26,6 +27,6 @@ int main() {
     auto *so = new Solution();
     vector<int> height{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
     int res = so->trap(height);
-    cout << res << endl;
+    print(res);
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -30,7 +31,6 @@ int main() {
     auto *so = new Solution();
     string s = "29";
     vector<string> res = so->letterCombinations(s);
-    for (string &str :res)
-        cout << str << endl;
+    print_1d_vector(res);
     return 0;
 }

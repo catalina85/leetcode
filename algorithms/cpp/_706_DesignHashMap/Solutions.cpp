@@ -1,4 +1,5 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
@@ -138,9 +139,12 @@ int main() {
         obj->remove(r);
 
     for (int &g: get)
-        cout << obj->get(g) << endl;
+        print(obj->get(g));
 
-    cout << "size: " << obj->size << endl;
+    string str = "size: ";
+    print(str);
+    print(obj->size);
+
     delete obj;
     return 0;
 /*

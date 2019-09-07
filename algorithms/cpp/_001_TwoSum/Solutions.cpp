@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <myutils.h>
 
 using namespace std;
 
@@ -10,7 +11,7 @@ public:
         map<int, int> m;
         for (int i = 0; i < nums.size(); i++) {
             if (m.find(target - nums[i]) != m.end()) {
-                return vector<int>{(*m.find(target - nums[i])).second, i};
+                return vector<int>{m.find(target - nums[i])->second, i};
             }
             m.insert({nums[i], i});
         }
@@ -24,9 +25,7 @@ int main() {
 
     auto *so = new Solution();
     vector<int> res = so->twoSum(nums, target);
-
-    for (int &x : res)
-        cout << x << " ";
+    print_1d_vector(res);
     delete so;
     return 0;
 }

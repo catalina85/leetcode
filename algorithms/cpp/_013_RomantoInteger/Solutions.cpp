@@ -1,5 +1,6 @@
 #include <iostream>
 #include <unordered_map>
+#include <myutils.h>
 
 using namespace std;
 
@@ -16,12 +17,12 @@ public:
         map.insert({'M', 1000});
 
         int ans = 0;
-        ans += (*map.find(s[0])).second;
+        ans += map.find(s[0])->second;
 
         for (int i = 1; i < s.length(); i++) {
-            ans += (*map.find(s[i])).second;
-            if ((*map.find(s[i - 1])).second < (*map.find(s[i])).second)
-                ans -= (*map.find(s[i - 1])).second * 2;
+            ans += map.find(s[i])->second;
+            if (map.find(s[i - 1])->second < map.find(s[i])->second)
+                ans -= map.find(s[i - 1])->second * 2;
         }
         return ans;
     }
@@ -31,7 +32,7 @@ int main() {
     auto *so = new Solution();
     string s = "MCMXCIV";
     int res = so->romanToInt(s);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

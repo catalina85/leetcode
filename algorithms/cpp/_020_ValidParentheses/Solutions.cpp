@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stack>
+#include <myutils.h>
 
 using namespace std;
 
@@ -37,7 +38,7 @@ int main() {
     auto *so = new Solution();
     string s = "(])";
     bool res = so->isValid(s);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

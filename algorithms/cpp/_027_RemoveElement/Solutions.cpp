@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -25,8 +26,6 @@ int main() {
     vector<int> nums{0, 0, 1, 1, 1, 2, 2, 3, 3, 4, 5};
     int val = 2;
     int len = so->removeElement(nums, val);
-    for (int i = 0; i < len; i++) {
-        cout << nums[i];
-    }
+    print_1d_vector(nums);
     return 0;
 }

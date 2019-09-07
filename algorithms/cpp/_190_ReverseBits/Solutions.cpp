@@ -1,4 +1,5 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
@@ -17,7 +18,7 @@ int main() {
     auto *so = new Solution();
     uint32_t n = 43261596;
     uint32_t res = so->reverseBits(n);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

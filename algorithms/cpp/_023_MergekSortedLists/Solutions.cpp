@@ -1,15 +1,10 @@
 #include <iostream>
 #include <vector>
+#include <myListNode.h>
+#include <myutils.h>
 
 using namespace std;
 
-//Definition for singly-linked list.
-struct ListNode {
-    int val;
-    ListNode *next;
-
-    explicit ListNode(int x) : val(x), next(nullptr) {}
-};
 
 class Solution {
 public:
@@ -23,7 +18,7 @@ public:
         if (start >= end)
             return lists[start];
 
-        int mid = (end - start) / 2 + start;
+        int mid = (end + start) / 2;
         ListNode *left = mergeHelper(lists, start, mid);
         ListNode *right = mergeHelper(lists, mid + 1, end);
         return mergeTwoLists(left, right);
@@ -58,14 +53,6 @@ public:
         }
         return dummy->next;
     }
-
-    void printList(ListNode *node) {
-        while (node != NULL) {
-            cout << node->val << " ";
-            node = node->next;
-        }
-        cout << endl;
-    }
 };
 
 int main() {
@@ -85,7 +72,7 @@ int main() {
     lists.push_back(l3);
 
     ListNode *res = so->mergeKLists(lists);
-    so->printList(res);
+    printList(res);
     delete so;
     return 0;
 }

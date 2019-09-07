@@ -1,18 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-
+#include <myVector.h>
+#include <myTreeNode.h>
+#include <myutils.h>
 
 using namespace std;
-
-//Definition for a binary tree node.
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-
-    explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-};
 
 class Solution {
 public:
@@ -60,11 +53,7 @@ int main() {
     root->right->left = new TreeNode(6);
     root->right->right = new TreeNode(7);
     vector<vector<int>> res = so->zigzagLevelOrder(root);
-    for (auto &level:res) {
-        for (int &ele:level)
-            cout << ele << " ";
-        cout << endl;
-    }
+    print_2d_vector(res);
     delete so;
     return 0;
 }

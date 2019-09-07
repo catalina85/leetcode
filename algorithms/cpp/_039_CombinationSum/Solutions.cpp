@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -35,12 +36,7 @@ int main() {
     vector<int> nums{2, 3, 4, 5, 7};
     int target = 7;
     vector<vector<int>> res = so->combinationSum(nums, target);
-    for (auto &list: res) {
-        for (auto ele: list) {
-            cout << ele;
-        }
-        cout << endl;
-    }
+    print_2d_vector(res);
     delete so;
     return 0;
 }

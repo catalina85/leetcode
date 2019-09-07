@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -25,7 +26,7 @@ int main() {
     vector<string> strs{"flower", "flow", "flight"};
     auto *so = new Solution();
     string res = so->longestCommonPrefix(strs);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

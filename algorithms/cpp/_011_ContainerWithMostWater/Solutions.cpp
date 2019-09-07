@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -25,7 +26,7 @@ int main() {
     vector<int> height{1, 8, 6, 2, 5, 4, 8, 3, 7};
     auto *so = new Solution();
     int res = so->maxArea(height);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

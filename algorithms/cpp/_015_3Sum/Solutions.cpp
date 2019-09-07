@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -37,13 +38,8 @@ int main() {
 //    [-1, -1, 2]
 //    ]
     vector<int> nums{-1, 0, 1, 2, -1, -4};
-
     auto *so = new Solution();
     vector<vector<int>> res = so->threeSum(nums);
-    for (vector<int> &vect:res) {
-        for (int &x:vect)
-            cout << x << " ";
-        cout << endl;
-    }
+    print_2d_vector(res);
     delete so;
 }

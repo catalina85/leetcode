@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -37,7 +38,7 @@ int main() {
     int k = 60;
     auto *so = new Solution();
     int res = so->twoSumLessThanK(vect, k);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

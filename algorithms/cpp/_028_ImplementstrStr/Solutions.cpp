@@ -1,4 +1,5 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
@@ -26,6 +27,6 @@ int main() {
     string s = "aaaaaaaaaaaac";
     string needle = "aaac";
     int index = so->strStr(s, needle);
-    cout << index << endl;
+    print(index);
     return 0;
 }

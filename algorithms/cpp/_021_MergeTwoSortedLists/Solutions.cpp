@@ -1,14 +1,8 @@
 #include <iostream>
+#include <myListNode.h>
+#include <myutils.h>
 
 using namespace std;
-
-//Definition for singly-linked list.
-struct ListNode {
-    int val;
-    ListNode *next;
-
-    explicit ListNode(int x) : val(x), next(nullptr) {}
-};
 
 class Solution {
 public:
@@ -41,14 +35,6 @@ public:
         }
         return dummy->next;
     }
-
-    void printList(ListNode *node) {
-        while (node != NULL) {
-            cout << node->val << " ";
-            node = node->next;
-        }
-        cout << endl;
-    }
 };
 
 int main() {
@@ -59,8 +45,7 @@ int main() {
     ListNode *l2 = new ListNode(1);
     l2->next = new ListNode(3);
     l2->next->next = new ListNode(4);
-    so->printList(l1);
     ListNode *res = so->mergeTwoLists(l1, l2);
-    so->printList(res);
+    printList(res);
     return 0;
 }

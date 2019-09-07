@@ -23,7 +23,7 @@
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii)|[C++](./algorithms/cpp/_454_4SumII/Solutions.cpp)|Medium|
 |002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[C++](./algorithms/cpp/_002_AddTwoNumbers/Solutions.cpp)|Medium|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)|[C++](./algorithms/cpp/_445_AddTwoNumbersII/Solutions.cpp)|Medium|
-|003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Python](./algorithms/python/_003_LongestSubstringWithoutRepeatingCharacters/Solutions.py), [Java](./algorithms/java/src/_003_LongestSubstringWithoutRepeatingCharacters/Solutions.java)|Medium|
+|003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[C++](./algorithms/cpp/_003_LongestSubstringWithoutRepeatingCharacters/Solutions.cpp), [Java](./algorithms/java/src/_003_LongestSubstringWithoutRepeatingCharacters/Solutions.java)|Medium|
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)  (*)|[C++](./algorithms/cpp/_340_LongestSubstringWithAtMostKDistinctCharacters/Solutions.cpp)|Hard|
 |004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[C++](./algorithms/cpp/_004_MedianOfTwoSortedArrays/Solutions.cpp)|Hard|
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[C++](./algorithms/cpp/_005_LongestPalindromicSubstring/Solutions.cpp), [Java](./algorithms/java/src/_005_LongestPalindromicSubstring/Solutions.java)|Medium|
@@ -73,3 +73,9 @@
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal)  (*)|[C++](./algorithms/cpp/_314_BinaryTreeVerticalOrderTraversal/Solutions.cpp)|Medium|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)|[C++](./algorithms/cpp/_111_MinimumDepthofBinaryTree/Solutions.cpp)|Easy|
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree)|[C++](./algorithms/cpp/_993_CousinsinBinaryTree/Solutions.cpp)|Easy|
+|334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|[C++](./algorithms/cpp/_334_IncreasingTripletSubsequence/Solutions.cpp)|Medium|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[C++](./algorithms/cpp/_121_BestTimetoBuyandSellStock/Solutions.cpp)|Easy|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[C++](./algorithms/cpp/_122_BestTimetoBuyandSellStockII/Solutions.cpp)|Easy|
+|033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[C++](./algorithms/cpp/_033_SearchInRotatedSortedArray/Solutions.cpp)|Medium|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[C++](./algorithms/cpp/_153_FindMinimuminRotatedSortedArray/Solutions.cpp)|Medium|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[C++](./algorithms/cpp/_154_FindMinimuminRotatedSortedArrayII/Solutions.cpp)|Hard|

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -27,11 +28,6 @@ private:
 int main() {
     auto *so = new Solution();
     vector<vector<int>> res = so->combine(4, 2);
-    for (auto &list: res) {
-        for (auto ele: list) {
-            cout << ele;
-        }
-        cout << endl;
-    }
+    print_2d_vector(res);
     return 0;
 }

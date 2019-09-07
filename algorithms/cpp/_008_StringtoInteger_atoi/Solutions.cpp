@@ -1,4 +1,5 @@
 #include <iostream>
+#include <myutils.h>
 
 using namespace std;
 
@@ -36,7 +37,7 @@ int main() {
     string s1 = "4193 with words";
     string s2 = "words and 987";
     int res = so->myAtoi(s2);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

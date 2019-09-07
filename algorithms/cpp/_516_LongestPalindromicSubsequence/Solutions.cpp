@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <myutils.h>
 
 using namespace std;
 
@@ -35,7 +36,7 @@ int main() {
     string s = "bbbbbb";
     auto *so = new Solution();
     int res = so->longestPalindromeSubseq(s);
-    cout << res << endl;
+    print(res);
     delete so;
     return 0;
 }

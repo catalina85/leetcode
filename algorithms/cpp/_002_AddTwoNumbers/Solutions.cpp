@@ -1,16 +1,7 @@
 #include <iostream>
+#include <myListNode.h>
 
 using namespace std;
-
-/**
- * Definition for singly-linked list.
- */
-struct ListNode {
-    int val;
-    ListNode *next;
-
-    ListNode(int x) : val(x), next(NULL) {}
-};
 
 class Solution {
 public:
@@ -35,35 +26,29 @@ public:
         if (carry > 0) prev->next = new ListNode(carry);
         return dummy->next;
     }
-
-    void printList(ListNode *node) {
-        while (node != NULL) {
-            cout << node->val << " ";
-            node = node->next;
-        }
-        cout << endl;
-    }
 };
 
 int main() {
 //    Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 //    Output: 7 -> 0 -> 8
 //    Explanation: 342 + 465 = 807.
-    ListNode *l1 = new ListNode(2);
+    ListNode *l1 = createListNode(2);
     l1->next = new ListNode(4);
     l1->next->next = new ListNode(6);
 
-    ListNode *l2 = new ListNode(5);
+    ListNode *l2 = createListNode(5);
     l2->next = new ListNode(6);
     l2->next->next = new ListNode(4);
 
     auto *so = new Solution();
     ListNode *res = so->addTwoNumbers(l1, l2);
-    so->printList(l1);
-    so->printList(l2);
-    so->printList(res);
+
+    printList(l1);
+    printList(l2);
+    printList(res);
     delete l1;
     delete l2;
+    delete res;
     delete so;
     return 0;
 }

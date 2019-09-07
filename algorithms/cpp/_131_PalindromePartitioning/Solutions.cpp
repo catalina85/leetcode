@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
@@ -43,12 +44,7 @@ int main() {
     auto *so = new Solution();
     string s = "abbaabba";
     vector<vector<string>> res = so->partition(s);
-    for (auto &list: res) {
-        for (auto &ele: list) {
-            cout << ele << " ";
-        }
-        cout << endl;
-    }
+    print_2d_vector(res);
     delete so;
     return 0;
 }
