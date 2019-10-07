@@ -11,16 +11,22 @@ public:
         dummy->next = head;
         ListNode *first = dummy;
         ListNode *second = dummy;
-
-        for (int i = 1; i <= n; i++)
+        int i = 0;
+        while (first->next && i++ < n) {
             first = first->next;
-
+        }
         while (first->next) {
             first = first->next;
             second = second->next;
+            i++;
         }
-        second->next = second->next->next;
-        return dummy->next;
+        if (n > i)
+            return nullptr;
+        else {
+            second->next = second->next->next;
+            return dummy->next;
+        }
+
     }
 };
 

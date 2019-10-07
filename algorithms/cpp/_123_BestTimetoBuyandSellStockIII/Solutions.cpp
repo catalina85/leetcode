@@ -1,12 +1,14 @@
 #include <iostream>
 #include <vector>
+#include <myutils.h>
 
 using namespace std;
 
 class Solution {
+//    vector<int> prices{7, 1, 5, 3, 6, 4};
 public:
     int maxProfit(vector<int> &prices) {
-        if (prices.size() == 0) {
+        if (prices.empty()) {
             return 0;
         }
 
@@ -19,17 +21,20 @@ public:
             buy = min(buy, prices[i]);
         }
 
+        print_1d_vector(profit);
+
         int sell = prices[prices.size() - 1];
         int best = 0;
         for (int i = prices.size() - 2; i >= 0; i--) {
             best = max(best, sell - prices[i] + profit[i]);
+            print(best);
             sell = max(sell, prices[i]);
+            print(sell);
+            print();
         }
-
         return best;
     }
 };
-
 
 int main() {
     auto *so = new Solution();

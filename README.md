@@ -79,3 +79,11 @@
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[C++](./algorithms/cpp/_033_SearchInRotatedSortedArray/Solutions.cpp)|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[C++](./algorithms/cpp/_153_FindMinimuminRotatedSortedArray/Solutions.cpp)|Medium|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[C++](./algorithms/cpp/_154_FindMinimuminRotatedSortedArrayII/Solutions.cpp)|Hard|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[C++](./algorithms/cpp/_300_LongestIncreasingSubsequence/Solutions.cpp)|Medium|
+|155|[Min Stack](https://leetcode.com/problems/min-stack)|[C++](./algorithms/cpp/_155_MinStack/Solutions.cpp)|Easy|
+|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences)|[C++](./algorithms/cpp/_946_ValidateStackSequences/Solutions.cpp)|Medium|
+|255|[Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree)  (*)|[C++](./algorithms/cpp/_255_VerifyPreorderSequenceinBinarySearchTree/Solutions.cpp)|Medium|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[C++](./algorithms/cpp/_105_ConstructBinaryTreefromPreorderandInorderTraversal/Solutions.cpp)|Medium|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[C++](./algorithms/cpp/_106_ConstructBinaryTreefromInorderandPostorderTraversal/Solutions.cpp)|Medium|
+|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[C++](./algorithms/cpp/_123_BestTimetoBuyandSellStockIII/Solutions.cpp)|Hard|
+|188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[C++](./algorithms/cpp/_188_BestTimetoBuyandSellStockIV/Solutions.cpp)|Hard|
